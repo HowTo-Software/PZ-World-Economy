@@ -1,0 +1,20 @@
+{
+  "med_suture_2": { "inherit": "currency_base", "amount": 200 },
+  "med_forceps_2": { "inherit": "currency_base", "amount": 200 },
+  "med_bandage_3": { "inherit": "currency_base", "amount": 300 },
+  "med_tweezers_2": { "inherit": "currency_base", "amount": 200 },
+  "med_painkillers_3": { "inherit": "currency_base", "amount": 300 },
+  "med_antibiotics_4": { "inherit": "currency_base", "amount": 400 },
+  "med_shears_4": { "inherit": "currency_base", "amount": 400 },
+  "drink_taurine_1": { "inherit": "currency_base", "amount": 100 },
+  "drink_antwhip_1": { "inherit": "currency_base", "amount": 100 },
+  "drink_energy_gel_1": { "inherit": "currency_base", "amount": 100 },
+  "generator_100": {
+    "inherit": "currency_base",
+    "amount": 10000
+  },
+  "token_100": {
+    "inherit": "token_base",
+    "amount": 100
+  }
+}

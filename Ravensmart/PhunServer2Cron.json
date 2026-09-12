@@ -1,0 +1,11 @@
+{
+  "data": {
+    "modwatch": {
+      "action": "modcheck",
+      "enabled": true,
+      "every": 5,
+      "everyUnit": "minutes"
+    }
+  },
+  "version": 1
+}

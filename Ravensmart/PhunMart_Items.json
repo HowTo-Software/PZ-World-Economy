@@ -1,0 +1,41 @@
+{
+  "Base.SutureNeedle": { "price": "med_suture_2", "title": "Suture Needle: $2" },
+  "Base.Forceps_Forged": { "price": "med_forceps_2", "title": "Forceps: $2" },
+  "Base.Bandage": { "price": "med_bandage_3", "title": "Sterilized Bandage: $3" },
+  "Base.Tweezers": { "price": "med_tweezers_2", "title": "Tweezers: $2" },
+  "Base.Pills": { "price": "med_painkillers_3", "title": "Painkillers: $3" },
+  "Base.Antibiotics": { "price": "med_antibiotics_4", "title": "Antibiotics: $4" },
+  "Base.ScissorsBluntMedical": { "price": "med_shears_4", "title": "Medical Shears: $4" },
+  "MR.Glucose_oralsolution": { "price": "drink_taurine_1", "title": "Taurine Bottle: $1" },
+  "MR.Antwhip_liquor": { "price": "drink_antwhip_1", "title": "Antwhip: $1" },
+  "MR.Energy_adhesive": { "price": "drink_energy_gel_1", "title": "Tactical Energy Gel: $1" },
+  "Base.GoldBar": {
+    "price": "self_1",
+    "reward": "change_payout_gold_ingot",
+    "title": "Gold Ingot: 1 Token"
+  },
+  "Base.SilverBar": {
+    "price": "self_3",
+    "reward": "change_payout_silver_ingot",
+    "title": "3 Silver Ingots: 1 Token"
+  },
+  "Base.PaydayGoldBar": {
+    "price": "self_1",
+    "reward": "change_payout_payday_gold_bars"
+  },
+   "93fordElginSpec": {
+   "price": "token_24"
+  },
+  "Base.Diamond": { "price": "self_1", "reward": "change_payout_gem" },
+  "Base.Sapphire": { "price": "self_1", "reward": "change_payout_sapphire" },
+  "Base.Ruby": { "price": "self_1", "reward": "change_payout_ruby" },
+  "Base.Emerald": { "price": "self_1", "reward": "change_payout_emerald" },
+  "Base.Amethyst": { "price": "self_1", "reward": "change_payout_amethyst" },
+  "Base.Leather_Harness_Panties": { "price": "self_1", "reward": "change_payout_panties" },
+  "Base.MoneyBundle": { "price": "self_1", "reward": "change_payout_bundlemoney" },
+  "Base.PaydayMoneyPile": { "price": "self_1", "reward": "change_payout_moneypile" },
+  "Base.Generator": {
+    "price": "generator_100",
+    "title": "Generator: $100"
+  }
+}
