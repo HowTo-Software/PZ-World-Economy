@@ -1,0 +1,95 @@
+{
+  "med_suture_2": { "inherit": "currency_base", "amount": 200 },
+  "med_forceps_2": { "inherit": "currency_base", "amount": 200 },
+  "med_bandage_3": { "inherit": "currency_base", "amount": 300 },
+  "med_tweezers_2": { "inherit": "currency_base", "amount": 200 },
+  "med_painkillers_3": { "inherit": "currency_base", "amount": 300 },
+  "med_antibiotics_4": { "inherit": "currency_base", "amount": 400 },
+  "med_shears_4": { "inherit": "currency_base", "amount": 400 },
+  "drink_taurine_1": { "inherit": "currency_base", "amount": 100 },
+  "drink_antwhip_1": { "inherit": "currency_base", "amount": 100 },
+  "drink_energy_gel_1": { "inherit": "currency_base", "amount": 100 },
+
+  "generator_100": {
+    "inherit": "currency_base",
+    "amount": 10000
+  },
+
+  "ammo_weight_126": {
+    "inherit": "currency_base",
+    "amount": 126
+  },
+  "ammo_weight_153": {
+    "inherit": "currency_base",
+    "amount": 153
+  },
+  "ammo_weight_207": {
+    "inherit": "currency_base",
+    "amount": 207
+  },
+  "ammo_weight_216": {
+    "inherit": "currency_base",
+    "amount": 216
+  },
+  "ammo_weight_270": {
+    "inherit": "currency_base",
+    "amount": 270
+  },
+  "ammo_weight_288": {
+    "inherit": "currency_base",
+    "amount": 288
+  },
+  "ammo_weight_297": {
+    "inherit": "currency_base",
+    "amount": 297
+  },
+  "ammo_weight_315": {
+    "inherit": "currency_base",
+    "amount": 315
+  },
+  "ammo_weight_342": {
+    "inherit": "currency_base",
+    "amount": 342
+  },
+  "ammo_weight_360": {
+    "inherit": "currency_base",
+    "amount": 360
+  },
+  "ammo_weight_405": {
+    "inherit": "currency_base",
+    "amount": 405
+  },
+  "ammo_weight_414": {
+    "inherit": "currency_base",
+    "amount": 414
+  },
+  "ammo_weight_450": {
+    "inherit": "currency_base",
+    "amount": 450
+  },
+  "ammo_weight_518": {
+    "inherit": "currency_base",
+    "amount": 518
+  },
+  "ammo_weight_540": {
+    "inherit": "currency_base",
+    "amount": 540
+  },
+  "ammo_weight_653": {
+    "inherit": "currency_base",
+    "amount": 653
+  },
+  "ammo_weight_698": {
+    "inherit": "currency_base",
+    "amount": 698
+  },
+  "ammo_weight_1440": {
+    "inherit": "currency_base",
+    "amount": 1440
+  },
+
+  "token_100": {
+    "inherit": "token_base",
+    "amount": 100
+  }
+}

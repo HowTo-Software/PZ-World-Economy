@@ -1,0 +1,98 @@
+{
+  "PittyTheTool": {
+    "poolSets": [
+      {
+        "price": "currency_mid",
+        "keys": [
+          {
+            "key": "pool_pittythetool",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "keys": [
+          {
+            "key": "pool_pittythetool_generator_sticky",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "CSVPharmacy": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_csv_med_sticky",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "FinalAmendment": {
+  "poolSets": [
+    {
+      "keys": [
+        {
+          "key": "pool_finalamendment_marz_ammo",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+},
+  "PrawnStars": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_prawnstars_core",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "type": "PrawnStars"
+  },
+  "WrentAWreck": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_wrent_raven_core",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "type": "WrentAWreck"
+  },
+  "HardWear": {
+    "category": "Vehicles",
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_ravens_wrecks_core",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Collectors": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_raven_collection",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

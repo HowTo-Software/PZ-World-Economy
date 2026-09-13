@@ -1,0 +1,741 @@
+{
+  "Base.SutureNeedle": {
+    "price": "med_suture_2",
+    "title": "Suture Needle: $2"
+  },
+  "Base.Forceps_Forged": {
+    "price": "med_forceps_2",
+    "title": "Forceps: $2"
+  },
+  "Base.Bandage": {
+    "price": "med_bandage_3",
+    "title": "Sterilized Bandage: $3"
+  },
+  "Base.Tweezers": {
+    "price": "med_tweezers_2",
+    "title": "Tweezers: $2"
+  },
+  "Base.Pills": {
+    "price": "med_painkillers_3",
+    "title": "Painkillers: $3"
+  },
+  "Base.Antibiotics": {
+    "price": "med_antibiotics_4",
+    "title": "Antibiotics: $4"
+  },
+  "Base.ScissorsBluntMedical": {
+    "price": "med_shears_4",
+    "title": "Medical Shears: $4"
+  },
+  "MR.Glucose_oralsolution": {
+    "price": "drink_taurine_1",
+    "title": "Taurine Bottle: $1"
+  },
+  "MR.Antwhip_liquor": {
+    "price": "drink_antwhip_1",
+    "title": "Antwhip: $1"
+  },
+  "MR.Energy_adhesive": {
+    "price": "drink_energy_gel_1",
+    "title": "Tactical Energy Gel: $1"
+  },
+  "Base.GoldBar": {
+    "price": "self_1",
+    "reward": "change_payout_gold_ingot",
+    "title": "Gold Ingot: 1 Token"
+  },
+  "Base.SilverBar": {
+    "price": "self_3",
+    "reward": "change_payout_silver_ingot",
+    "title": "3 Silver Ingots: 1 Token"
+  },
+  "Base.PaydayGoldBar": {
+    "price": "self_1",
+    "reward": "change_payout_payday_gold_bars"
+  },
+  "93fordElginSpec": {
+    "price": "token_24"
+  },
+  "Base.Diamond": {
+    "price": "self_1",
+    "reward": "change_payout_gem"
+  },
+  "Base.Sapphire": {
+    "price": "self_1",
+    "reward": "change_payout_sapphire"
+  },
+  "Base.Ruby": {
+    "price": "self_1",
+    "reward": "change_payout_ruby"
+  },
+  "Base.Emerald": {
+    "price": "self_1",
+    "reward": "change_payout_emerald"
+  },
+  "Base.Amethyst": {
+    "price": "self_1",
+    "reward": "change_payout_amethyst"
+  },
+  "Base.Leather_Harness_Panties": {
+    "price": "self_1",
+    "reward": "change_payout_panties"
+  },
+  "Base.MoneyBundle": {
+    "price": "self_1",
+    "reward": "change_payout_bundlemoney"
+  },
+  "Base.PaydayMoneyPile": {
+    "price": "self_1",
+    "reward": "change_payout_moneypile"
+  },
+  "Base.Generator": {
+    "price": "generator_100",
+    "title": "Generator: $100"
+  },
+  "Base.PotScrubberFrog": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.BorisBadger": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.EyeOfCthulhu": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.FluffyfootBunny": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.FreddyFox": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.FurbertSquirrel": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.JacquesBeaver": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.MoleyMole": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.PancakeHedgehog": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.PanchoDog": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Plushabug": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Spiffo": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.SpiffoBig": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.TrashGoblin": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyBear": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyBear_Crafted_Cotton": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyBear_Crafted_Burlap": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Bricktoys": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Cube": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Doll": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Rubberducky": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.RubberSpider": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyBadge": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyCar": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.ToyPlane": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Yoyo": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.HobbyHorse": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.SnowGlobe": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Revolver_CapGun": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Rifle_CapGun": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.CapGunCapBox": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PigPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.AxolotlPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.RoyalePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BioPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BatmanPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.StitchesPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.ChocobiPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GrebdiozPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GIRPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GIR2Plushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.DeathBeePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GroguPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MiniMoosePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MishkaPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.LuckyCatPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.LuckyCatGoldPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CactuarPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MogPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.ReiPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PochitaPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.DaveMinionPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.UddersPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.LuffyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BenderPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GnomeAmericanPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.DarthVaderPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.ShredderPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.SplinterPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.LeonardoPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.RaphaelPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.DonatelloPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MichelangeloPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.SmokeyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.InspectorGadgetPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PinkKittenPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CthulhuPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CthulhuFullPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.FloppyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.OptimusPrimePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MegatronPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GoatPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.UnicornPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.TurtlePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.OtterPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.Porg1Plushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.Porg2Plushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.Ewok1Plushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.Ewok2Plushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MikeWazowskiPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.SullyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.StitchPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.HexDollPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MurderMonkeyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PuarPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PiranhaPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.FrogbertPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.HammondPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CannabisPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BrainPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.ScrapPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.AlienSpiffoPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CopSpiffoPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MetalGearRayPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BlahajPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MarvMunchkinPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.DeadpoolPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.SpongebobPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.PatrickStarPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.SquidwardPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MrKrabsPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.ZoeyPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.RumiPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.MiraPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CellPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.BedtimeBearPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.FunshineBearPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.GrumpyBearPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.TenderBearPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.CheerBearPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.WolverinePlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.RealBatmanPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MorePlushies.IronmanPlushie": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "MarzGuns.12Gauge_Box_Buckshot": {
+    "price": "ammo_weight_698"
+  },
+  "MarzGuns.12Gauge_Box_Slug": {
+    "price": "ammo_weight_698"
+  },
+  "MarzGuns.9x19_Box": {
+    "price": "ammo_weight_405"
+  },
+  "MarzGuns.45_Box": {
+    "price": "ammo_weight_653"
+  },
+  "MarzGuns.38_Box": {
+    "price": "ammo_weight_450"
+  },
+  "MarzGuns.44_Box": {
+    "price": "ammo_weight_360"
+  },
+  "MarzGuns.50_Box": {
+    "price": "ammo_weight_540"
+  },
+  "MarzGuns.762x51_Box": {
+    "price": "ammo_weight_297"
+  },
+  "MarzGuns.308_Box": {
+    "price": "ammo_weight_315"
+  },
+  "MarzGuns.762x54_Box": {
+    "price": "ammo_weight_288"
+  },
+  "MarzGuns.556x45_Box": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.556x45_Box_HollowPoint": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.556x45_Box_ArmorPiercing": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.556x45_Box_Subsonic": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.556x45_Box_Overpressured": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.223_Box": {
+    "price": "ammo_weight_153"
+  },
+  "MarzGuns.545x39_Box": {
+    "price": "ammo_weight_126"
+  },
+  "MarzGuns.762x39_Box": {
+    "price": "ammo_weight_216"
+  },
+  "MarzGuns.9x39_Box": {
+    "price": "ammo_weight_207"
+  },
+  "MarzGuns.3006_Box": {
+    "price": "ammo_weight_342"
+  },
+  "MarzGuns.3030_Box": {
+    "price": "ammo_weight_270"
+  },
+  "MarzGuns.357_Box": {
+    "price": "ammo_weight_518"
+  },
+  "MarzGuns.4570_Box": {
+    "price": "ammo_weight_414"
+  },
+  "MarzGuns.40mm_Box_Buckshot": {
+    "price": "ammo_weight_1440"
+  },
+  "MarzGuns.40mm_Box_HE": {
+    "price": "ammo_weight_1440"
+  },
+  "MarzGuns.40mm_Box_Incendiary": {
+    "price": "ammo_weight_1440"
+  },
+  "Base.StockCertificate": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Hominid_Skull": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Hominid_Skull_Partial": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Hominid_Skull_Fragment": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Brain": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_FetalCalf": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_FetalLamb": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_FetalPiglet": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_MonkeyHead": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Octopus": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Tapeworm": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Minerals": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Beetles": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Butterflies": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Centipedes": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Specimen_Insects": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.TarotCardDeck": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.OujaBoard": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Crystal": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Crystal_Large": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.GoldCoin": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.SilverCoin": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.TrophyBronze": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.TrophySilver": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.TrophyGold": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.MilitaryMedal": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.RatKing": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.SuspiciousPackage": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  },
+  "Base.Pocketwatch": {
+    "price": "self_1",
+    "reward": "token_collector_t1"
+  }
+}
