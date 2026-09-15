@@ -2,8 +2,6 @@
 
 A configurable Project Zomboid Build 42 economy built around PhunMart 2.
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=3775133200
-
 This setup creates functional buying, selling, scavenging, collecting, vehicle recovery, ammunition, medical, tool, pawn, and premium-vehicle economies. The configuration is designed for multiplayer servers and can be adjusted for anything from casual RP to a more deteriorated hardcore survival world.
 
 The supplied JSON files are intended to be copied into:
@@ -13,6 +11,8 @@ The supplied JSON files are intended to be copied into:
 ## REQUIRED MODS
 
 These overrides reference items and vehicles from the following mods. Missing content mods will normally cause the affected item or vehicle entries to fail to resolve.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3775133200
 
 ### Core Economy and Content
 
