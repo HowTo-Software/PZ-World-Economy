@@ -1,0 +1,157 @@
+{
+  "change_payout_gold_ingot": {
+    "kind": "collector",
+    "display": {
+      "texture": "media/textures/icons/token.png"
+    },
+    "actions": [
+      {
+        "type": "grantBoundTokens",
+        "amount": 1
+      }
+    ],
+    "title": "Gold Ingot: 1 Token"
+  },
+  "change_payout_silver_ingot": {
+    "kind": "collector",
+    "display": {
+      "texture": "media/textures/icons/token.png"
+    },
+    "actions": [
+      {
+        "type": "grantBoundTokens",
+        "amount": 1
+      }
+    ],
+    "title": "3 Silver Ingots: 1 Token"
+  },
+  "change_payout_good": {
+    "enabled": false
+  },
+  "change_payout_jackpot": {
+    "enabled": false
+  },
+  "change_payout_premium": {
+    "enabled": false
+  },
+  "change_payout_sapphire": {
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 1000
+      }
+    ],
+    "enabled": "__phunmart_removed__"
+  },
+  "change_payout_ruby": {
+    "price": "__phunmart_removed__",
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 1100
+      }
+    ]
+  },
+  "change_payout_gem": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 1300
+      }
+    ],
+    "title": "Diamond: $13"
+  },
+  "change_payout_amethyst": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 1000
+      }
+    ],
+    "title": "Amethyst: $10"
+  },
+  "change_payout_emerald": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 1200
+      }
+    ],
+    "title": "Emerald: $12"
+  },
+  "change_payout_panties": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 100
+      }
+    ],
+    "title": "Leather Harness Panties: $1"
+  },
+  "change_payout_bundlemoney": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 5000
+      }
+    ],
+    "title": "Money Bundle: $50"
+  },
+  "change_payout_moneypile": {
+    "kind": "pawn",
+    "display": {
+      "texture": "Item_Money"
+    },
+    "actions": [
+      {
+        "type": "adjustBalance",
+        "pool": "change",
+        "amount": 50000
+      }
+    ],
+    "title": "Money Pile: $500"
+  },
+  "phunkeys_tradein_2": {
+    "kind": "collector",
+    "display": {
+      "texture": "media/textures/icons/token.png"
+    },
+    "actions": [
+      {
+        "type": "grantBoundTokens",
+        "amount": 2
+      }
+    ],
+    "title": "Vehicle Trade-In: 2 Tokens"
+  }
+}

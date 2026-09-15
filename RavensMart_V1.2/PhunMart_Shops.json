@@ -1,0 +1,93 @@
+{
+  "PittyTheTool": {
+    "poolSets": [
+      {
+        "price": "currency_mid",
+        "keys": [
+          {
+            "key": "pool_pittythetool",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "keys": [
+          {
+            "key": "pool_pittythetool_generator_sticky",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "CSVPharmacy": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_csv_med_sticky",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "FinalAmendment": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_finalamendment_marz_ammo",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "PrawnStars": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_prawnstars_core",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "type": "PrawnStars"
+  },
+  "WrentAWreck": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_wrent_raven_core",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "keys": [
+          {
+            "key": "pool_wrent_phunkeys_box",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "type": "WrentAWreck"
+  },
+  "Collectors": {
+    "poolSets": [
+      {
+        "keys": [
+          {
+            "key": "pool_raven_collection",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}
