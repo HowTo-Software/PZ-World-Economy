@@ -72,7 +72,6 @@ The current configuration modifies:
 * CSV Pharmacy
 * Final Amendment
 * Wrent-A-Wreck
-* Raven's Wrecks
 * Collectors / Raven's Collection
 
 `HardWear` is intentionally repurposed as the internal shop key for Raven's Wrecks.
@@ -91,8 +90,9 @@ Configured payouts include:
 * Payday Money Pile: **$500**
 * Gold Ingot: **1 bound token**
 * Silver Ingots: **3 ingots for 1 bound token**
-* Gem payouts retained
-* Leather Harness Panties payout retained
+* Gem payouts 10-13 bucks
+* Leather Harness Panties payout $1
+* TRANSMUTED Vehicle Claim Key
 
 The Gold and Silver Ingots are part of Build 42's precious-metal system. **Forge Gold and Silver Ingots** provides an additional crafting path for turning collected precious-metal material into ingots.
 
@@ -140,7 +140,7 @@ Uses:
 `pool_csv_med_sticky`
 
 Sticky medical inventory includes:
-
+* Phun Cure!
 * Suture Needle
 * Forged Forceps
 * Sterilized Bandage
@@ -239,32 +239,9 @@ Current specialty entries include:
 * `63beetleHP` — High-performance Beetle
 * `91range` — 1991 Range Rover Classic, 4-door
 
-Wrent-A-Wreck dealership vehicles are deliberately excluded from Raven's Wrecks buyback.
-
 The premium dealership exists as an alternative to hunting down and repairing naturally spawned vehicles. This becomes increasingly valuable when the server world is configured with more deteriorated vehicle starting conditions.
 
 ---
-
-# RAVEN'S WRECKS
-
-Raven's Wrecks is the server's vehicle recovery and cleanup economy.
-
-It intentionally overrides the existing PhunMart:
-
-`HardWear`
-
-shop key.
-
-The server does not use the original Hard Wear clothing shop.
-
-Configuration path:
-
-`HardWear`
-→ `pool_ravens_wrecks_core`
-→ `vehicles_ravens_wrecks`
-→ `ravens_wrecks_payout`
-
-The original Hard Wear clothing pools are no longer used.
 
 ## Vehicle Payout
 
@@ -294,14 +271,7 @@ A player earning a standard premium dealership vehicle entirely through Raven's 
 
 ## Exclusions
 
-Raven's Wrecks does not accept:
-
-* Burnt variants
-* Trailers
-* Campers
-* Wrent-A-Wreck dealership vehicles
-
-Commercial, police, fire, ambulance, military, utility, construction, delivery, municipal, and other configured KI5 variants remain eligible.
+NONE. All vehicles should be transmutable and sellable. Please try to grab a console.txt and throw it at me somewhere either on steam or the github if something happens!
 
 ---
 
@@ -337,9 +307,9 @@ The collection includes:
 * Vanilla toys
 * Cap guns and novelty toys
 * More Plushies items
-* `Base.EyeOfCthulhu`
-* `Base.PotScrubberFrog`
-* `Base.StockCertificate`
+* EyeOfCthulhu
+* PotScrubberFrog
+* StockCertificate
 * Hominid skull fossils and fragments
 * Preserved specimen jars
 * Mineral, insect, and butterfly specimens
@@ -402,7 +372,7 @@ Sticky offers:
 
 It does **not** limit the number of sticky offers.
 
-Because Raven's Wrecks contains roughly 200 vehicle definitions and Raven's Collection contains a large number of collectibles, a value of at least:
+Raven's Collection contains a large number of collectibles, a value of at least:
 
 `250`
 
@@ -458,13 +428,7 @@ Each file has a separate role:
 
 # IMPORTANT NOTES
 
-`HardWear` is intentionally retained as the internal shop key for Raven's Wrecks.
-
 `Collectors` is intentionally retained as the internal shop key for Raven's Collection.
-
-Wrent-A-Wreck and Raven's Wrecks must remain separate groups.
-
-Vehicles sold through Wrent-A-Wreck should not also be accepted by Raven's Wrecks.
 
 Vehicle groups use bare vehicle script names unless another subsystem specifically requires a module prefix.
 
@@ -473,6 +437,8 @@ Item IDs use their actual module prefix, for example:
 `Base.StockCertificate`
 
 `MorePlushies.PigPlushie`
+
+VEHICLES DO NOT!
 
 PhunMart definition keys and Project Zomboid script IDs are case-sensitive.
 
@@ -483,20 +449,3 @@ Malformed JSON can prevent the relevant override file from loading.
 If a content mod changes an internal item or vehicle script name, the corresponding JSON definition must also be updated.
 
 Back up known-working configuration files before editing them.
-
----
-
-# DEPLOYMENT WORKFLOW
-
-A safe deployment workflow is:
-
-1. Copy the known-working production `Zomboid/Lua` economy folder to a certification server.
-2. Add new required Workshop and Mod IDs to certification.
-3. Test startup, shop compilation, restocking, purchasing, payouts, and vehicle spawning.
-4. Verify new content mods do not introduce multiplayer or server-authority problems.
-5. Copy the tested INI and Sandbox additions to production.
-6. Promote the tested Lua configuration.
-7. Restart production once.
-8. Force-restock modified shops if necessary.
-
-This keeps the production world on a known-working economy while allowing new mods and shop changes to be tested as a complete stack before deployment.
