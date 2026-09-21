@@ -1,0 +1,64 @@
+{
+  "pool_finalamendment_marz_ammo": {
+    "title": "Guns of Marz Ammunition",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "marz_ammo_all"
+      ]
+    }
+  },
+  "pool_csv_med_sticky": {
+    "title": "Medical Supplies and Combat Drinks",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "med_sticky"
+      ]
+    }
+  },
+  "pool_wrent_raven_core": {
+    "title": "Raven's Specialty Vehicles",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "vehicles_raven"
+      ]
+    }
+  },
+  "pool_pittythetool": {
+    "blacklist": [
+      "Base.Generator",
+      "Base.Generator_Yellow",
+      "Base.Generator_Blue",
+      "Base.Generator_Old"
+    ]
+  },
+  "pool_pittythetool_generator_sticky": {
+    "title": "Generator (Sticky)",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "generator_sticky"
+      ]
+    }
+  },
+  "pool_raven_collection": {
+    "title": "Raven's Collection",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "raven_collection"
+      ]
+    }
+  },
+  "pool_wrent_phunkeys_box": {
+    "title": "Vehicle Conversion Box",
+    "sticky": true,
+    "sources": {
+      "groups": [
+        "phunkeys_box"
+      ]
+    }
+  }
+}
